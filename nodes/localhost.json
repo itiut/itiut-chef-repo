@@ -15,6 +15,7 @@
     "recipe[nautilus-dropbox]",
     "recipe[openjdk-7-jdk]",
     "recipe[tig]",
+    "recipe[xclip]",
 
     "recipe[purge-packages]"
   ]
