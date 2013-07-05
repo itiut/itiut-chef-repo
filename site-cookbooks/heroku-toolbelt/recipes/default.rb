@@ -3,8 +3,7 @@
 # Recipe:: default
 #
 
-execute "install heroku toolbelt" do
-  command "wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
-  action :run
+bash "install heroku toolbelt" do
+  code "wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh"
   not_if "which heroku"
 end
