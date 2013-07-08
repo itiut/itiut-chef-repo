@@ -10,7 +10,7 @@ bash "setup nodebrew" do
   code <<-EOH
   wget git.io/nodebrew
   perl nodebrew setup
-  echo 'export PATH="$HOME/.nodebrew/current/bin:$PATH"' >> $HOME/.profile
+  echo 'export PATH="$HOME/.nodebrew/current/bin:$PATH"' >> $HOME/.bashrc
   rm nodebrew
   EOH
   not_if { ::File.exists?("#{ENV['HOME']}/.nodebrew") }
