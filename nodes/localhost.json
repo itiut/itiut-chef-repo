@@ -8,6 +8,7 @@
     "recipe[zsh]",
     "recipe[byobu]",
     "recipe[compizconfig-settings-manager]",
+    "recipe[curl]",
     "recipe[emacs24]",
     "recipe[heroku-toolbelt]",
     "recipe[ibus-mozc]",
