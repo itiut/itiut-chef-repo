@@ -40,8 +40,8 @@ $ sudo ./vmware-install.pl
 $ sudo apt-get install git build-essential libreadline-dev libssl-dev
 $ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 $ git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
-$ echo 'eval "$(rbenv init -)"' >> ~/.profile
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+$ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 $ exec $SHELL -l
 $ rbenv install 2.0.0-p0
 $ rbenv rehash
