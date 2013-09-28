@@ -20,6 +20,7 @@
     "recipe[virtualbox]",
     "recipe[xclip]",
 
+    "recipe[gem-packages]",
     "recipe[purge-packages]"
   ]
 }
