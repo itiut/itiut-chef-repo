@@ -17,6 +17,7 @@
     "recipe[nodebrew]",
     "recipe[openjdk-7-jdk]",
     "recipe[tig]",
+    "recipe[vagrant]",
     "recipe[virtualbox]",
     "recipe[xclip]",
 
